@@ -61,7 +61,7 @@
       "fontWeight": 500,
       "isSafeArea": false,
       "marginLeft": 0,
-      "paddingTop": 5,
+      "paddingTop": 0,
       "showSearch": false,
       "borderInput": false,
       "marginRight": 0,
@@ -71,7 +71,7 @@
       "paddingRight": 10,
       "preview_data": false,
       "paddingBottom": 0,
-      "backgroundColor": "ffE65100",
+      "backgroundColor": "ff000000",
       "usePrimaryColor": false,
       "enableBackground": true,
       "backgroundGradientColor": []
