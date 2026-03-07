@@ -3,13 +3,16 @@
     {
       "font": "Tajawal",
       "type": "rotate",
-      "title": "Free Shipping on Orders Over 24 OMR",
+      "title": "",
       "showForCurrency": [
         "OMR"
       ],
       "height": 30,
       "layout": "header_text",
-      "rotate": [],
+      "rotate": [
+        "Free Shipping on Orders Over 24 OMR",
+        "Free gift with every order over 35 OMR! 🎁"
+      ],
       "fontSize": 15.5,
       "minWidth": 0,
       "alignment": "center",
@@ -58,7 +61,7 @@
       "items": [
         {
           "key": "zqevhJCLcy",
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/RAMADAN_BANNER_MOBILE_EN.webp?v=1772376591",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_EN.webp",
           "video": "",
           "category": "gid://shopify/Collection/138436935760",
           "products": [],
