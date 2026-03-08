@@ -10,7 +10,7 @@
       "height": 30,
       "layout": "header_text",
       "rotate": [
-        "شحن مجاني للطلبات فوق 24 ريال عماني",
+        "شحن مجاني للطلبات فوق 24 ريال",
         "هدية مجانية مع كل طلب يزيد عن 35 ريال عماني! 🎁"
       ],
       "fontSize": 15.5,
@@ -21,7 +21,7 @@
       "fontWeight": 400,
       "isSafeArea": false,
       "marginLeft": 0,
-      "paddingTop": 0,
+      "paddingTop": 5,
       "showSearch": false,
       "borderInput": false,
       "marginRight": 0,
@@ -33,46 +33,6 @@
       "paddingBottom": 0,
       "backgroundColor": "ff000000",
       "usePrimaryColor": true,
-      "enableBackground": true,
-      "backgroundGradientColor": []
-    },
-    {
-      "font": "Tajawal",
-      "type": "static",
-      "title": "⚠️ الشحن الدولي متوقف مؤقتاً بسبب ارتفاع رسوم الشحن نتيجة الأوضاع الراهنة",
-      "showForCurrency": [
-        "SAR",
-        "AED",
-        "KWD",
-        "BHD",
-        "QAR",
-        "USD",
-        "EUR",
-        "GBP"
-      ],
-      "height": 30,
-      "layout": "header_text",
-      "rotate": [],
-      "fontSize": 13,
-      "minWidth": 0,
-      "alignment": "center",
-      "marginTop": 0,
-      "textColor": "ffffffff",
-      "fontWeight": 500,
-      "isSafeArea": false,
-      "marginLeft": 0,
-      "paddingTop": 0,
-      "showSearch": false,
-      "borderInput": false,
-      "marginRight": 0,
-      "paddingLeft": 10,
-      "textOpacity": 1,
-      "marginBottom": 0,
-      "paddingRight": 10,
-      "preview_data": false,
-      "paddingBottom": 0,
-      "backgroundColor": "ff000000",
-      "usePrimaryColor": false,
       "enableBackground": true,
       "backgroundGradientColor": []
     },
@@ -101,7 +61,7 @@
       "items": [
         {
           "key": "zqevhJCLcy",
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/RAMADAN_BANNER_MOBILE_AR.webp?v=1772376586",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_AR.webp",
           "video": "",
           "category": "gid://shopify/Collection/138436935760",
           "products": [],
@@ -1517,5 +1477,37 @@
     },
     "backgroundColor": "ff000000",
     "backgroundImage": null
+  },
+  "freeShippingGiftBar": {
+    "enabled": true,
+    "freeShippingEnabled": true,
+    "freeGiftEnabled": true,
+    "showForCurrency": [
+      "OMR"
+    ],
+    "freeShippingThreshold": 24,
+    "freeGiftThreshold": 35,
+    "messages": {
+      "shippingUnreached": "أحسنت، أضف {remaining} لتحصل على شحن مجاني!",
+      "shippingReached": "🎉 تهانينا! حصلت على شحن مجاني!\nأضف {remaining} لتحصل على هدية مجانية.",
+      "allReached": "🎉 مبروك! لقد حصلت على شحن مجاني وهدية مجانية.",
+      "shippingOnly": "🎉 تهانينا! حصلت على شحن مجاني!",
+      "giftUnreached": "أضف {remaining} لتحصل على هدية مجانية!",
+      "giftReached": "🎉 تهانينا! حصلت على هدية مجانية!"
+    }
+  },
+  "cartNotices": {
+    "enabled": true,
+    "hideForCurrency": [
+      "OMR"
+    ],
+    "notices": [
+      {
+        "text": "قد يتم فرض الرسوم الجمركية أو رسوم التخليص الجمركي أو ضريبة القيمة المضافة عند التسليم حسب القوانين المتبعة في بلدك."
+      },
+      {
+        "text": "تتم جميع المعاملات بالريال العُماني (OMR) بأحدث سعر صرف لعملتك المحلية."
+      }
+    ]
   }
 }
