@@ -1483,15 +1483,31 @@
   },
   "cartNotices": {
     "enabled": true,
-    "hideForCurrency": [
-      "OMR"
-    ],
-    "notices": [
+    "groups": [
       {
-        "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations."
+        "enabled": true,
+        "hideForCurrency": [
+          "OMR"
+        ],
+        "notices": [
+          {
+            "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations."
+          },
+          {
+            "text": "All transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
+          }
+        ]
       },
       {
-        "text": "All transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
+        "enabled": true,
+        "showForCurrency": [
+          "OMR"
+        ],
+        "notices": [
+          {
+            "text": "Due to high demand, slight delivery delays may occur. We apologize for any inconvenience and are working to speed up shipping."
+          }
+        ]
       }
     ]
   }
