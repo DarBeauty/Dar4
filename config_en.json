@@ -21,7 +21,7 @@
       "fontWeight": 400,
       "isSafeArea": false,
       "marginLeft": 0,
-      "paddingTop": 0,
+      "paddingTop": 5,
       "showSearch": false,
       "borderInput": false,
       "marginRight": 0,
@@ -33,46 +33,6 @@
       "paddingBottom": 0,
       "backgroundColor": "ff000000",
       "usePrimaryColor": true,
-      "enableBackground": true,
-      "backgroundGradientColor": []
-    },
-    {
-      "font": "Tajawal",
-      "type": "static",
-      "title": "⚠️ International shipping is temporarily suspended due to elevated shipping costs",
-      "showForCurrency": [
-        "SAR",
-        "AED",
-        "KWD",
-        "BHD",
-        "QAR",
-        "USD",
-        "EUR",
-        "GBP"
-      ],
-      "height": 30,
-      "layout": "header_text",
-      "rotate": [],
-      "fontSize": 13,
-      "minWidth": 0,
-      "alignment": "center",
-      "marginTop": 0,
-      "textColor": "ffffffff",
-      "fontWeight": 500,
-      "isSafeArea": false,
-      "marginLeft": 0,
-      "paddingTop": 5,
-      "showSearch": false,
-      "borderInput": false,
-      "marginRight": 0,
-      "paddingLeft": 10,
-      "textOpacity": 1,
-      "marginBottom": 0,
-      "paddingRight": 10,
-      "preview_data": false,
-      "paddingBottom": 0,
-      "backgroundColor": "ffE65100",
-      "usePrimaryColor": false,
       "enableBackground": true,
       "backgroundGradientColor": []
     },
@@ -101,7 +61,7 @@
       "items": [
         {
           "key": "zqevhJCLcy",
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/RAMADAN_BANNER_MOBILE_EN.webp?v=1772376591",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_EN.webp",
           "video": "",
           "category": "gid://shopify/Collection/138436935760",
           "products": [],
@@ -1502,5 +1462,37 @@
     },
     "backgroundColor": "ff000000",
     "backgroundImage": null
+  },
+  "freeShippingGiftBar": {
+    "enabled": true,
+    "freeShippingEnabled": true,
+    "freeGiftEnabled": true,
+    "showForCurrency": [
+      "OMR"
+    ],
+    "freeShippingThreshold": 24,
+    "freeGiftThreshold": 35,
+    "messages": {
+      "shippingUnreached": "Great! Add {remaining} more to get free shipping!",
+      "shippingReached": "🎉 Congratulations! You got free shipping!\nAdd {remaining} more to get a free gift.",
+      "allReached": "🎉 Congratulations! You have free shipping and a free gift.",
+      "shippingOnly": "🎉 Congratulations! You got free shipping!",
+      "giftUnreached": "Add {remaining} more to get a free gift!",
+      "giftReached": "🎉 Congratulations! You got a free gift!"
+    }
+  },
+  "cartNotices": {
+    "enabled": true,
+    "hideForCurrency": [
+      "OMR"
+    ],
+    "notices": [
+      {
+        "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations."
+      },
+      {
+        "text": "All transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
+      }
+    ]
   }
 }
