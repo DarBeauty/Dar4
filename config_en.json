@@ -42,7 +42,7 @@
       "showLogo": true,
       "showSearch": true,
       "showCart": false,
-      "showNotification": false,
+      "showNotification": true,
       "showBadgeCart": false,
       "opacity": 1.0,
       "iconOpacity": 0.0,
