@@ -1504,12 +1504,12 @@
         ]
       },
       {
-        "enabled": false,
+        "enabled": true,
         "dates": [],
-        "showForCurrency": ["OMR"],
+        "showForCurrency": ["AED"],
         "notices": [
           {
-            "text": "Due to high demand, slight delivery delays may occur. We apologize for any inconvenience and are working to speed up shipping."
+            "text": "All transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
           }
         ]
       }
