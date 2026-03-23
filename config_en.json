@@ -1496,7 +1496,7 @@
       {
         "enabled": true,
         "dates": [],
-        "hideForCurrency": ["OMR"],
+        "hideForCurrency": ["OMR","AED"],
         "notices": [
           {
             "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations.\n\nAll transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
