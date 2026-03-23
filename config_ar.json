@@ -42,7 +42,7 @@
       "showLogo": true,
       "showSearch": true,
       "showCart": false,
-      "showNotification": true,
+      "showNotification": false,
       "showBadgeCart": false,
       "opacity": 1.0,
       "iconOpacity": 0.0,
@@ -61,7 +61,7 @@
       "items": [
         {
           "key": "zqevhJCLcy",
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_AR.webp?v=1727681366",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_AR.webp",
           "video": "",
           "category": "gid://shopify/Collection/138436935760",
           "products": [],
@@ -1018,47 +1018,7 @@
       "Cover Up 03": "FFecd1b5",
       "Cover Up 04": "FFd6b687",
       "Cover Up 05": "FFefcbaf",
-      "Cover Up 06": "FFa5866c",
-      "Hush Hush": "FFde7f63",
-      "Birthday Suit": "FFba613f",
-      "On Point": "FFe54863",
-      "Devoted": "FFc55147",
-      "Petal Talk": "FFf186b0",
-      "Swipe Right": "FFa23533",
-      "Rose Ritual": "FFcf5150",
-      "Risky Business": "FFa94e41",
-      "Love Cake": "FFce6778",
-      "Cutie Pie": "FFbb6055",
-      "Real Deal": "FFaf545e",
-      "Hot Topic": "FFf85c67",
-      "Painted Peony": "FFbf615f",
-      "Guava Juice": "FFff98ab",
-      "Soft Tan": "FFb28b6d",
-      "Golden Sun": "FFbb815c",
-      "Warm Honey": "FFa05f32",
-      "Maple Syrup": "FF8b4a30",
-      "Tawny Amber": "FFb3775a",
-      "Vanilla Frost": "FFede8e5",
-      "Gold Rings": "FFdabea6",
-      "Pink Satin": "FFeec0b9",
-      "Bellini Brunch": "FFe7beb3",
-      "Tea Cake": "FFdfb589",
-      "Neutron Star": "FFdadce4",
-      "Heart Galaxy": "FFedadba",
-      "Banana": "FFf5dbb2",
-      "Cappuccino": "FFf7d3ad",
-      "Translucent": "FFf3f4f2",
-      "Buttercream": "FFecd0ad",
-      "Shell": "FFe5c19b",
-      "Nude": "FFe5ba98",
-      "Honey": "FFddb68c",
-      "Sand": "FFe3be8c",
-      "Golden": "FFd1a371",
-      "Caramel": "FFc78f6a",
-      "Chestnut": "FFd59872",
-      "Fair": "FFfcdbb6",
-      "Porcelain": "FFfae1c6",
-      "Warm Vanilla": "FFf1caa7"
+      "Cover Up 06": "FFa5866c"
     }
   },
   "TabBar": [
@@ -1530,37 +1490,75 @@
     "messages": {
       "shippingUnreached": "أحسنت، أضف {remaining} لتحصل على شحن مجاني!",
       "shippingReached": "🎉 تهانينا! حصلت على شحن مجاني!\nأضف {remaining} لتحصل على هدية مجانية.",
-      "allReached": "🎉 مبروك! لقد حصلت على شحن مجاني وهدية مجانية.",
-      "shippingOnly": "🎉 تهانينا! حصلت على شحن مجاني!",
+      "allReached": "🎉 تهانينا!\nستحصل على شحن مجاني وهدية مجانية.",
+      "shippingOnly": "🎉 تهانينا!\nستحصل على شحن مجاني!",
       "giftUnreached": "أضف {remaining} لتحصل على هدية مجانية!",
-      "giftReached": "🎉 تهانينا! حصلت على هدية مجانية!"
+      "giftReached": "🎉 تهانينا! ستحصل على هدية مجانية!"
     }
   },
   "cartNotices": {
     "enabled": true,
     "groups": [
       {
-        "enabled": true,
-        "hideForCurrency": [
-          "OMR"
-        ],
+        "enabled": false,
+        "dates": [],
         "notices": [
           {
-            "text": "قد يتم فرض الرسوم الجمركية أو رسوم التخليص الجمركي أو ضريبة القيمة المضافة عند التسليم حسب القوانين المتبعة في بلدك."
-          },
+            "text": "نص تجريبي لملاحظة السلة رئيسي يظهر لجميع العملات."
+          }
+        ]
+      },
+      {
+        "enabled": true,
+        "dates": [],
+        "hideForCurrency": ["OMR"],
+        "notices": [
           {
-            "text": "تتم جميع المعاملات بالريال العُماني (OMR) بأحدث سعر صرف لعملتك المحلية."
+            "text": "قد يتم فرض الرسوم الجمركية أو رسوم التخليص الجمركي أو ضريبة القيمة المضافة عند التسليم حسب القوانين المتبعة في بلدك.\n\nتتم جميع المعاملات بالريال العُماني (OMR) بأحدث سعر صرف لعملتك المحلية."
           }
         ]
       },
       {
         "enabled": false,
-        "showForCurrency": [
-          "OMR"
-        ],
+        "dates": [],
+        "showForCurrency": ["OMR"],
         "notices": [
           {
             "text": "نظراً للطلب العالي، قد يحدث تأخير بسيط في التوصيل. نعتذر عن أي إزعاج ونعمل جاهدين لتسريع الشحن."
+          }
+        ]
+      }
+    ]
+  },
+  "homeNotices": {
+    "enabled": true,
+    "groups": [
+      {
+        "enabled": true,
+        "dates": ["2026-03-22", "2026-03-23"],
+        "notices": [
+          {
+            "text": "نص الإشعار الرئيسي هنا.\nنص الإشعار الرئيسي هنا.نص الإشعار الرئيسي هنا. نص الإشعار الرئيسي هنا."
+          }
+        ]
+      },
+      {
+        "enabled": false,
+        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23"],
+        "hideForCurrency": ["OMR"],
+        "notices": [
+          {
+            "text": "إشعار خاص بالعملات الأجنبية لفترة محدودة."
+          }
+        ]
+      },
+      {
+        "enabled": true,
+        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23"],
+        "showForCurrency": ["OMR"],
+        "notices": [
+          {
+            "text": "إشعار خاص بعملة OMR لفترة محدودة."
           }
         ]
       }
