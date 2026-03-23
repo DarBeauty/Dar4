@@ -42,7 +42,7 @@
       "showLogo": true,
       "showSearch": true,
       "showCart": false,
-      "showNotification": true,
+      "showNotification": false,
       "showBadgeCart": false,
       "opacity": 1.0,
       "iconOpacity": 0.0,
@@ -61,7 +61,7 @@
       "items": [
         {
           "key": "zqevhJCLcy",
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_EN.webp?v=1727842921",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_EN.webp",
           "video": "",
           "category": "gid://shopify/Collection/138436935760",
           "products": [],
@@ -1018,47 +1018,7 @@
       "Cover Up 03": "FFecd1b5",
       "Cover Up 04": "FFd6b687",
       "Cover Up 05": "FFefcbaf",
-      "Cover Up 06": "FFa5866c",
-      "Hush Hush": "FFde7f63",
-      "Birthday Suit": "FFba613f",
-      "On Point": "FFe54863",
-      "Devoted": "FFc55147",
-      "Petal Talk": "FFf186b0",
-      "Swipe Right": "FFa23533",
-      "Rose Ritual": "FFcf5150",
-      "Risky Business": "FFa94e41",
-      "Love Cake": "FFce6778",
-      "Cutie Pie": "FFbb6055",
-      "Real Deal": "FFaf545e",
-      "Hot Topic": "FFf85c67",
-      "Painted Peony": "FFbf615f",
-      "Guava Juice": "FFff98ab",
-      "Soft Tan": "FFb28b6d",
-      "Golden Sun": "FFbb815c",
-      "Warm Honey": "FFa05f32",
-      "Maple Syrup": "FF8b4a30",
-      "Tawny Amber": "FFb3775a",
-      "Vanilla Frost": "FFede8e5",
-      "Gold Rings": "FFdabea6",
-      "Pink Satin": "FFeec0b9",
-      "Bellini Brunch": "FFe7beb3",
-      "Tea Cake": "FFdfb589",
-      "Neutron Star": "FFdadce4",
-      "Heart Galaxy": "FFedadba",
-      "Banana": "FFf5dbb2",
-      "Cappuccino": "FFf7d3ad",
-      "Translucent": "FFf3f4f2",
-      "Buttercream": "FFecd0ad",
-      "Shell": "FFe5c19b",
-      "Nude": "FFe5ba98",
-      "Honey": "FFddb68c",
-      "Sand": "FFe3be8c",
-      "Golden": "FFd1a371",
-      "Caramel": "FFc78f6a",
-      "Chestnut": "FFd59872",
-      "Fair": "FFfcdbb6",
-      "Porcelain": "FFfae1c6",
-      "Warm Vanilla": "FFf1caa7"
+      "Cover Up 06": "FFa5866c"
     }
   },
   "TabBar": [
@@ -1515,37 +1475,75 @@
     "messages": {
       "shippingUnreached": "Great! Add {remaining} more to get free shipping!",
       "shippingReached": "🎉 Congratulations! You got free shipping!\nAdd {remaining} more to get a free gift.",
-      "allReached": "🎉 Congratulations! You have free shipping and a free gift.",
-      "shippingOnly": "🎉 Congratulations! You got free shipping!",
+      "allReached": "🎉 Congratulations!\nYou will get free shipping and a free gift.",
+      "shippingOnly": "🎉 Congratulations!\nYou will get free shipping!",
       "giftUnreached": "Add {remaining} more to get a free gift!",
-      "giftReached": "🎉 Congratulations! You got a free gift!"
+      "giftReached": "🎉 Congratulations! You will get a free gift!"
     }
   },
   "cartNotices": {
     "enabled": true,
     "groups": [
       {
-        "enabled": true,
-        "hideForCurrency": [
-          "OMR"
-        ],
+        "enabled": false,
+        "dates": [],
         "notices": [
           {
-            "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations."
-          },
+            "text": "General test notice for all currencies."
+          }
+        ]
+      },
+      {
+        "enabled": true,
+        "dates": [],
+        "hideForCurrency": ["OMR"],
+        "notices": [
           {
-            "text": "All transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
+            "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations.\n\nAll transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
           }
         ]
       },
       {
         "enabled": false,
-        "showForCurrency": [
-          "OMR"
-        ],
+        "dates": [],
+        "showForCurrency": ["OMR"],
         "notices": [
           {
             "text": "Due to high demand, slight delivery delays may occur. We apologize for any inconvenience and are working to speed up shipping."
+          }
+        ]
+      }
+    ]
+  },
+  "homeNotices": {
+    "enabled": true,
+    "groups": [
+      {
+        "enabled": true,
+        "dates": ["2026-03-22", "2026-03-23"],
+        "notices": [
+          {
+            "text": "Home notice text here.\nHome notice text here. Home notice text here."
+          }
+        ]
+      },
+      {
+        "enabled": false,
+        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-21"],
+        "hideForCurrency": ["OMR"],
+        "notices": [
+          {
+            "text": "Limited-time notice for non-OMR currencies."
+          }
+        ]
+      },
+      {
+        "enabled": false,
+        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-21"],
+        "showForCurrency": ["OMR"],
+        "notices": [
+          {
+            "text": "Limited-time notice for OMR currency."
           }
         ]
       }
