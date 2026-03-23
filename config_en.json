@@ -1543,7 +1543,7 @@
         "showForCurrency": ["OMR"],
         "notices": [
           {
-            "text": "Limited-time notice for OMR currency."
+            "text": "Limited-time notice for OMR currency.\nLimited-time notice for OMR currency. Limited-time notice for OMR currency."
           }
         ]
       }
