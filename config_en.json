@@ -1174,7 +1174,7 @@
       "layout": "videos",
       "icon": "assets/icons/tabs/icon-videos.png",
       "label": "Discover",
-      "visible": false,
+      "visible": true,
       "fullscreen": true,
       "showOriginalColor": false
     },
