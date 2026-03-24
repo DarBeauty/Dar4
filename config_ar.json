@@ -1188,7 +1188,7 @@
       "layout": "videos",
       "icon": "assets/icons/tabs/icon-videos.png",
       "label": "اكتشف",
-      "visible": false,
+      "visible": true,
       "fullscreen": true,
       "showOriginalColor": false
     },
