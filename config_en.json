@@ -1348,7 +1348,7 @@
       },
       {
         "show": true,
-        "type": "category-vRTsxAdtng"
+        "type": "screen-brandsMenu"
       },
       {
         "show": true,
@@ -1487,16 +1487,16 @@
         "iconFontFamily": "MaterialIcons",
         "buttonAlignment": "centerLeft"
       },
-      "category-vRTsxAdtng": {
-        "id": "web-12",
-        "icon": "whatshot",
-        "title": "Special Offers",
+      "screen-brandsMenu": {
+        "id": "brands",
+        "icon": "tag_circle",
+        "title": "Brands",
+        "screen": "brands",
         "buttons": [],
-        "category": "gid://shopify/Collection/262614155344",
         "bannerHeight": 15,
         "useTabScreen": false,
         "enableBackward": true,
-        "iconFontFamily": "MaterialIcons",
+        "iconFontFamily": "CupertinoIcons",
         "buttonAlignment": "centerLeft"
       }
     },
@@ -1583,7 +1583,7 @@
         "showForCurrency": ["OMR"],
         "notices": [
           {
-            "text": "Limited-time notice for OMR currency.\nLimited-time notice for OMR currency. Limited-time notice for OMR currency."
+            "text": "Limited-time notice for OMR currency."
           }
         ]
       }
