@@ -1,4 +1,12 @@
 {
+  "forceUpdate": {
+    "enabled": false,
+    "title": "New Update Available! ✨",
+    "message": "We've made important performance improvements and added amazing new features. Update now for the best shopping experience.",
+    "buttonText": "Update Now",
+    "iosUrl": "https://apps.apple.com/app/id1528122829",
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.sooqaman.sooqaman"
+  },
   "HorizonLayout": [
     {
       "font": "Tajawal",
@@ -1538,7 +1546,10 @@
       {
         "enabled": true,
         "dates": [],
-        "hideForCurrency": ["OMR","AED"],
+        "hideForCurrency": [
+          "OMR",
+          "AED"
+        ],
         "notices": [
           {
             "text": "Customs fees, clearance fees, or VAT may be applied upon delivery in accordance with your country's regulations.\n\nAll transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
@@ -1548,7 +1559,9 @@
       {
         "enabled": true,
         "dates": [],
-        "showForCurrency": ["AED"],
+        "showForCurrency": [
+          "AED"
+        ],
         "notices": [
           {
             "text": "All transactions are conducted in Omani Rial (OMR) at the latest exchange rate for your local currency."
@@ -1562,7 +1575,10 @@
     "groups": [
       {
         "enabled": true,
-        "dates": ["2026-03-22", "2026-03-23"],
+        "dates": [
+          "2026-03-22",
+          "2026-03-23"
+        ],
         "notices": [
           {
             "text": "Home notice text here.\nHome notice text here. Home notice text here."
@@ -1571,8 +1587,15 @@
       },
       {
         "enabled": false,
-        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-21"],
-        "hideForCurrency": ["OMR"],
+        "dates": [
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-20",
+          "2026-03-21"
+        ],
+        "hideForCurrency": [
+          "OMR"
+        ],
         "notices": [
           {
             "text": "Limited-time notice for non-OMR currencies."
@@ -1581,8 +1604,15 @@
       },
       {
         "enabled": false,
-        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-21"],
-        "showForCurrency": ["OMR"],
+        "dates": [
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-20",
+          "2026-03-21"
+        ],
+        "showForCurrency": [
+          "OMR"
+        ],
         "notices": [
           {
             "text": "Limited-time notice for OMR currency."
