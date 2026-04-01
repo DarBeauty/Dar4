@@ -1,4 +1,12 @@
 {
+  "forceUpdate": {
+    "enabled": false,
+    "title": "تحديث جديد متاح! ✨",
+    "message": "قمنا بتحسينات مهمة في الأداء وإضافة ميزات جديدة رائعة. حدّث التطبيق الآن للحصول على أفضل تجربة تسوق.",
+    "buttonText": "تحديث الآن",
+    "iosUrl": "https://apps.apple.com/app/id1528122829",
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.sooqaman.sooqaman"
+  },
   "HorizonLayout": [
     {
       "font": "Tajawal",
@@ -478,7 +486,7 @@
           "name": null,
           "keepDefaultTitle": false,
           "colors": null,
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/The_Ordinary_Home_logo.png",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/axis-y_Home_logo.png",
           "tag": null,
           "category": "gid://shopify/Collection/169687744592",
           "showDescription": true,
@@ -537,7 +545,7 @@
           "colors": [
             "ffffdab5"
           ],
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/axis-y_Home_logo.png",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/The_Ordinary_Home_logo.png",
           "tag": null,
           "category": "gid://shopify/Collection/268093554768",
           "showDescription": false,
@@ -1553,7 +1561,10 @@
       {
         "enabled": true,
         "dates": [],
-        "hideForCurrency": ["OMR","AED"],
+        "hideForCurrency": [
+          "OMR",
+          "AED"
+        ],
         "notices": [
           {
             "text": "قد يتم فرض الرسوم الجمركية أو رسوم التخليص الجمركي أو ضريبة القيمة المضافة عند التسليم حسب القوانين المتبعة في بلدك.\n\nتتم جميع المعاملات بالريال العُماني (OMR) بأحدث سعر صرف لعملتك المحلية."
@@ -1563,7 +1574,9 @@
       {
         "enabled": true,
         "dates": [],
-        "showForCurrency": ["AED"],
+        "showForCurrency": [
+          "AED"
+        ],
         "notices": [
           {
             "text": "تتم جميع المعاملات بالريال العُماني (OMR) بأحدث سعر صرف لعملتك المحلية."
@@ -1577,7 +1590,10 @@
     "groups": [
       {
         "enabled": true,
-        "dates": ["2026-03-22", "2026-03-23"],
+        "dates": [
+          "2026-03-22",
+          "2026-03-23"
+        ],
         "notices": [
           {
             "text": "نص الإشعار الرئيسي هنا.\nنص الإشعار الرئيسي هنا.نص الإشعار الرئيسي هنا. نص الإشعار الرئيسي هنا."
@@ -1586,8 +1602,15 @@
       },
       {
         "enabled": false,
-        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23"],
-        "hideForCurrency": ["OMR"],
+        "dates": [
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-20",
+          "2026-03-23"
+        ],
+        "hideForCurrency": [
+          "OMR"
+        ],
         "notices": [
           {
             "text": "إشعار خاص بالعملات الأجنبية لفترة محدودة."
@@ -1596,8 +1619,15 @@
       },
       {
         "enabled": true,
-        "dates": ["2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23"],
-        "showForCurrency": ["OMR"],
+        "dates": [
+          "2026-03-18",
+          "2026-03-19",
+          "2026-03-20",
+          "2026-03-23"
+        ],
+        "showForCurrency": [
+          "OMR"
+        ],
         "notices": [
           {
             "text": "إشعار خاص بعملة OMR لفترة محدودة."
