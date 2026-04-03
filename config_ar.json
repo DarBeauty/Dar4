@@ -1533,7 +1533,7 @@
     "freeShippingEnabled": true,
     "freeGiftEnabled": true,
     "showForCurrency": [
-      "OMR"
+      "OMR", "null"
     ],
     "freeShippingThreshold": 24,
     "freeGiftThreshold": 35,
@@ -1562,8 +1562,7 @@
         "enabled": true,
         "dates": [],
         "hideForCurrency": [
-          "OMR",
-          "AED"
+          "OMR", "AED", "null"
         ],
         "notices": [
           {
