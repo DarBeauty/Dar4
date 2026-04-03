@@ -13,7 +13,7 @@
       "type": "rotate",
       "title": "",
       "showForCurrency": [
-        "OMR"
+        "OMR", "null"
       ],
       "height": 30,
       "layout": "header_text",
