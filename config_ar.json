@@ -69,7 +69,7 @@
       "items": [
         {
           "key": "zqevhJCLcy",
-          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/EID_BANNER_MOBILE_AR.webp?v=1774181282",
+          "image": "https://cdn.shopify.com/s/files/1/0235/6687/6752/files/DR_BANNER_MOBILE_AR.webp",
           "video": "",
           "category": "gid://shopify/Collection/138436935760",
           "products": [],
@@ -1561,8 +1561,8 @@
       {
         "enabled": true,
         "dates": [],
-        "hideForCurrency": [
-          "OMR", "AED"
+        "showForCurrency": [
+          "SAR", "USD", "KWD", "BHD", "QAR", "EUR", "GBP"
         ],
         "notices": [
           {
