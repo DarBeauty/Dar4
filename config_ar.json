@@ -13,7 +13,7 @@
       "type": "rotate",
       "title": "",
       "showForCurrency": [
-        "OMR", "null"
+        "OMR"
       ],
       "height": 30,
       "layout": "header_text",
@@ -1533,7 +1533,7 @@
     "freeShippingEnabled": true,
     "freeGiftEnabled": true,
     "showForCurrency": [
-      "OMR", "null"
+      "OMR"
     ],
     "freeShippingThreshold": 24,
     "freeGiftThreshold": 35,
@@ -1562,7 +1562,7 @@
         "enabled": true,
         "dates": [],
         "hideForCurrency": [
-          "OMR", "AED", "null"
+          "OMR", "AED"
         ],
         "notices": [
           {
